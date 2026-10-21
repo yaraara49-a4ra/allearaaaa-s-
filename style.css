@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 18px;
+  background: #fff0f5;
+  color: #92536f;
+  font-family: 'Nunito', sans-serif;
+}
+
+.box {
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 22px;
+  background: #fffafd;
+  border: 2px solid #ffe0ed;
+  border-radius: 28px;
+  box-shadow: 0 8px 25px #eeb5cf55;
+}
+
+header {
+  text-align: center;
+  padding: 25px 10px;
+  background: linear-gradient(135deg, #ffe3ef, #fff4f8, #fbd4e5);
+  border-radius: 22px;
+}
+
+.ribbon {
+  font-size: 25px;
+}
+
+h1 {
+  margin: 10px 0;
+  color: #d65391;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+.welcome {
+  font-size: 13px;
+  color: #b76b91;
+}
+
+.divider {
+  margin: 23px 0;
+  text-align: center;
+  color: #e49abc;
+  font-size: 13px;
+}
+
+h2 {
+  color: #d65391;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #b45d84;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 13px;
+  border: 1px solid #f2c1d7;
+  border-radius: 14px;
+  background: #fff6fa;
+  color: #85506a;
+  font: inherit;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 1.7;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f5a6c9, #e979ad);
+  color: white;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.counter {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  background: #ffeaf3;
+  color: #b45d84;
+}
+
+.materi {
+  margin-top: 16px;
+  padding: 17px;
+  border: 1px solid #f5d0e0;
+  border-radius: 18px;
+  background: #fff4f9;
+  overflow-wrap: anywhere;
+}
+
+.materi h3 {
+  color: #d65391;
+}
+
+.kategori {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #ffe0ed;
+}
+
+.isi-materi {
+  white-space: pre-wrap;
+  line-height: 1.7;
+}
+
+.aksi {
+  display: flex;
+  gap: 8px;
+}
+
+.aksi button {
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px 0;
+  border-top: 1px solid #f7d5e4;
+  text-align: center;
+  color: #bd7b9b;
+}
+
+@media (max-width: 420px) {
+  body {
+    padding: 10px;
+  }
+
+  .box {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+}
