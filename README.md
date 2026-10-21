@@ -1,2 +1,2 @@
-# allearaaaa-s-
+# allearaaaa-
 my little world of knowledge
